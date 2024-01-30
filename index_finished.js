@@ -59,7 +59,7 @@ function seekAndDestroy(arr) {
 
 // Solution 2: ...rest, filter & includes
 function seekAndDestroy(arr, ...rest) {
-  return arr.filter(val => !rest.includes(val));
+  return arr.filter(val =>  rest.includes(val));
 }
 
 // CHALLENGE 4: SORT BY HEIGHT
@@ -116,3 +116,4 @@ function evenOddSums(arr) {
 
   return [evenSum, oddSum];
 }
+ 
